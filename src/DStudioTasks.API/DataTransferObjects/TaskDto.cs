@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using DStudioTasks.Domain.Common;
 
-namespace DStudioTasks.API.Data_Transfer_Objects
+namespace DStudioTasks.API.DataTransferObjects
 {
     public class TaskDto
     {

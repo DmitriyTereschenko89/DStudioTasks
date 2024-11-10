@@ -15,6 +15,7 @@ namespace DStudioTasks.API.Middleware
             }
             catch (Exception exception)
             {
+                _logger.LogError(exception, "Exception occured.");
                 await ConvertExceptionAsync(context, exception);
             }
         }
@@ -32,7 +33,6 @@ namespace DStudioTasks.API.Middleware
 
             problemDetails.Detail = exception.Message;
             context.Response.StatusCode = (int)problemDetails.Status;
-            _logger.LogError(exception, "Exception occured.");
             await context.Response.WriteAsJsonAsync(problemDetails);
         }
     }
