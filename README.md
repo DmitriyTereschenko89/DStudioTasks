@@ -1,5 +1,5 @@
 # D-Studio Tasks
-Applications for displaying tasks and creationg tasks
+Applications for displaying tasks and creating tasks.
 
 #### Backend: .Net 8.0, Automapper, EF Core 8.0
 #### Frontend: React, Mantine
@@ -30,9 +30,10 @@ Applications for displaying tasks and creationg tasks
 6. Create task
    ![image](https://github.com/user-attachments/assets/fcdce95b-3049-4de2-89c6-60386d874bfa)
    ![image](https://github.com/user-attachments/assets/0103e3f7-e846-45a3-8910-ca9c16a76674)
+   ![image](https://github.com/user-attachments/assets/19f0cd7b-c510-4bc6-97ec-10462bb4ab04)
 
 7. Show tasks
    ![image](https://github.com/user-attachments/assets/d9e70bba-efb3-4f00-9fe8-7790c62b8f84)
-   ![image](https://github.com/user-attachments/assets/823c5d16-31c2-463b-82ca-3d92cd93d462)
+   ![image](https://github.com/user-attachments/assets/3e520942-fa15-4549-a855-eeb84c3037d2)
 
    
