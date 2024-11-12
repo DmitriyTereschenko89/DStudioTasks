@@ -58,8 +58,9 @@ const Informations = ({setTasks, setLoader, none, flex}) => {
                     setPopupMessage(defaultMessage);
                 } 
 
+                setPopupOpened(true);
                 setTimeout(() => {
-                    setPopupMessage(false);
+                    setPopupOpened(false);
                 }, 1500);
                 setLoader(none);
             });
@@ -123,8 +124,9 @@ const Informations = ({setTasks, setLoader, none, flex}) => {
                             setPopupMessage(defaultMessage);
                         } 
 
+                        setPopupOpened(true);
                         setTimeout(() => {
-                            setPopupMessage(false);
+                            setPopupOpened(false);
                         }, 1500);
                     });
             })}>
